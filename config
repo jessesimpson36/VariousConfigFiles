@@ -174,7 +174,8 @@ set $workspace9   "9 "
 set $workspace10   "10 "
 
 # this will bind a system shutdown to the alt-shift-delete
-bindsym $mod+Shift+delete exec poweroff
+bindsym $mod+Shift+Delete exec --no-startup-id systemctl poweroff -i, mode "default"
+bindsym $mod+Shift+Home exec --no-startup-id systemctl suspend
 
 #Jesse No Longer Editted
 

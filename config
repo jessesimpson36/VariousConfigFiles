@@ -171,7 +171,7 @@ set $workspace2   "2 Browser"
 set $workspace3   "3 Media"
 set $workspace4   "4 Social"
 set $workspace5   "5 Coding"
-set $workspace6   "6 Procrastination"
+set $workspace6   "6 Schedule"
 set $workspace7   "7 "
 set $workspace8   "8 "
 set $workspace9   "9 "
@@ -185,6 +185,8 @@ bindsym $mod+Shift+Home exec --no-startup-id systemctl suspend
 assign [class="Google-chrome"] $workspace2
 assign [class="Opera"] $workspace2
 assign [class="jetbrains-studio"] $workspace5
+assign [class="eclipse"] $workspace5
+assign [class="firefox"] $workspace2
 
 
 

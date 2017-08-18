@@ -1,3 +1,4 @@
+syntax on
 set autoindent
 set tabstop=2
 set mouse=a

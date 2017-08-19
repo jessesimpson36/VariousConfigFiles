@@ -184,10 +184,16 @@ bindsym $mod+Shift+Home exec --no-startup-id systemctl suspend
 
 # assigning applications to their workspaces
 assign [class="chromium"] $workspace2
+assign [class="Chromium"] $workspace2
+assign [class="messenger for desktop"] $workspace4
+assign [class="Messenger for Desktop"] $workspace4
 assign [class="Opera"] $workspace2
 assign [class="jetbrains-studio"] $workspace5
-assign [class="eclipse"] $workspace5
-assign [class="firefox"] $workspace2
+assign [class="Eclipse"] $workspace5
+assign [class="Firefox"] $workspace2
+assign [class="Navigator"] $workspace2
+assign [class="slack"] $workspace4
+assign [class="Slack"] $workspace4
 
 
 

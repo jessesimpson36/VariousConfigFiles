@@ -1,0 +1,25 @@
+[global_config]
+  inactive_color_offset = 1.0
+  title_inactive_bg_color = "#000000"
+[keybindings]
+  copy = <Primary>c
+  paste = <Primary>v
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.0
+    cursor_color = "#aaaaaa"
+    cursor_shape = underline
+    font = Ubuntu Mono 14
+    foreground_color = "#e53c00"
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000ee:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
+    scrollback_infinite = True
+    use_system_font = False

@@ -35,3 +35,8 @@ rtv/
 systemsettingsrc
 teamviewer/
 unity3d/
+configstore/
+defaultKeyMap
+user
+user-dirs.dirs
+user-dirs.locale
